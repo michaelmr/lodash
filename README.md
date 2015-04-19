@@ -66,7 +66,6 @@ lodash is also available in a variety of other builds & module formats.
  * [_.chunk](https://lodash.com/docs#chunk) for splitting an array into chunks of a given size
  * [_.clone](https://lodash.com/docs#clone) supports shallow cloning of `Date` & `RegExp` objects
  * [_.cloneDeep](https://lodash.com/docs#cloneDeep) for deep cloning arrays & objects
- * [_.create](https://lodash.com/docs#create) for easier object inheritance
  * [_.curry](https://lodash.com/docs#curry) & [_.curryRight](https://lodash.com/docs#curryRight) for creating [curried](http://hughfdjackson.com/javascript/why-curry-helps/) functions
  * [_.debounce](https://lodash.com/docs#debounce) & [_.throttle](https://lodash.com/docs#throttle) are cancelable & accept options for more control
  * [_.fill](https://lodash.com/docs#fill) to fill arrays with values
@@ -102,13 +101,13 @@ lodash is also available in a variety of other builds & module formats.
  * [_.capitalize](https://lodash.com/docs#capitalize), [_.trim](https://lodash.com/docs#trim), &
    [more](https://lodash.com/docs "_.camelCase, _.deburr, _.endsWith, _.escapeRegExp, _.kebabCase, _.pad, _.padLeft, _.padRight, _.repeat, _.snakeCase, _.startCase, _.startsWith, _.trimLeft, _.trimRight, _.trunc, _.words") string methods
  * [_.clone](https://lodash.com/docs#clone), [_.isEqual](https://lodash.com/docs#isEqual), &
-   [more](https://lodash.com/docs "_.assign, _.cloneDeep, _.merge") accept callbacks
+   [more](https://lodash.com/docs "_.assign, _.cloneDeep, _.merge") accept customizer callbacks
  * [_.dropWhile](https://lodash.com/docs#dropWhile), [_.takeWhile](https://lodash.com/docs#takeWhile), &
-   [more](https://lodash.com/docs "_.drop, _.dropRightWhile, _.take, _.takeRightWhile") to complement [_.first](https://lodash.com/docs#first), [_.initial](https://lodash.com/docs#initial), [_.last](https://lodash.com/docs#last), & [_.rest](https://lodash.com/docs#rest)
+   [more](https://lodash.com/docs "_.drop, _.dropRight, _.dropRightWhile, _.take, _.takeRight, _.takeRightWhile") to complement [_.first](https://lodash.com/docs#first), [_.initial](https://lodash.com/docs#initial), [_.last](https://lodash.com/docs#last), & [_.rest](https://lodash.com/docs#rest)
  * [_.findLast](https://lodash.com/docs#findLast), [_.findLastKey](https://lodash.com/docs#findLastKey), &
-   [more](https://lodash.com/docs "_.flowRight, _.forEachRight, _.forInRight, _.forOwnRight, _.partialRight") right-associative methods
+   [more](https://lodash.com/docs "_.curryRight, _.dropRight, _.dropRightWhile, _.flowRight, _.forEachRight, _.forInRight, _.forOwnRight, _.padRight, partialRight, _.takeRight, _.trimRight, _.takeRightWhile") right-associative methods
  * [_.includes](https://lodash.com/docs#includes), [_.toArray](https://lodash.com/docs#toArray), &
-   [more](https://lodash.com/docs "_.at, _.countBy, _.every, _.filter, _.find, _.findLast, _.forEach, _.forEachRight, _.groupBy, _.indexBy, _.invoke, _.map, _.max, _.min, _.partition, _.pluck, _.reduce, _.reduceRight, _.reject, _.shuffle, _.size, _.some, _.sortBy") accept strings
+   [more](https://lodash.com/docs "_.at, _.countBy, _.every, _.filter, _.find, _.findLast, _.findWhere, _.forEach, _.forEachRight, _.groupBy, _.indexBy, _.invoke, _.map, _.max, _.min, _.partition, _.pluck, _.reduce, _.reduceRight, _.reject, _.shuffle, _.size, _.some, _.sortBy, _.sortByAll, _.sortByOrder, _.sum, _.where") accept strings
  * [_#commit](https://lodash.com/docs#prototype-commit) & [_#plant](https://lodash.com/docs#prototype-plant) for working with chain sequences
  * [_#thru](https://lodash.com/docs#thru) to pass values thru a chain sequence
 
