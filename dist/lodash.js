@@ -6780,6 +6780,6 @@
   }
   else {
     // in a browser or Rhino
-    root._ = _;
+    window._ = root._ = _;
   }
 }.call(this));
